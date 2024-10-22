@@ -8,7 +8,7 @@ LABEL description="francinette image 42"
 RUN apt update -y
 RUN apt install git -y
 WORKDIR /
-RUN git clone --recursive git@github.com:RaulPerezDEV/francinette-image.git
+RUN git clone --recursive https://github.com/RaulPerezDEV/francinette.git
 RUN apt update -y
 RUN apt upgrade -y
 RUN apt install gcc clang libpq-dev libbsd-dev libncurses-dev valgrind build-essential nasm clang ghc cmake make libxext-dev libbsd-dev libpq-dev -y

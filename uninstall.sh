@@ -2,7 +2,7 @@
 
 mkdir -p $HOME/.tmp_francinette
 
-git clone git@github.com:RaulPerezDEV/francinette-image.git $HOME/.tmp_francinette/francinette-image
+git clone https://github.com/RaulPerezDEV/francinette-image.git $HOME/.tmp_francinette/francinette-image
 
 source $HOME/.tmp_francinette/francinette-image/utils/remove_docker.sh
 source $HOME/.tmp_francinette/francinette-image/utils/remove_zshrc.sh
